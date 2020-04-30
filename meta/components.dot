@@ -1,0 +1,9 @@
+digraph components {
+    graph [rankdir="LR"]
+    node [shape="rect"]
+
+    App -> { Navbar, Routes }
+    Routes -> { Homepage, AboutSection }
+    AboutSection -> AboutRoutes
+    AboutRoutes -> { JobsList, Team }
+}
