@@ -7,7 +7,7 @@ routes and further down routes.
 Our Components
 --------------
 
-![Puffin Components](./meta/puffins.svg)
+![Components](./meta/components.svg)
 
 Our Routes
 ----------
