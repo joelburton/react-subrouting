@@ -12,18 +12,18 @@ Our Components
 Our Routes
 ----------
 
-- _exact_ */* renders `<Homepage />`
+- _exact_ **/** renders `<Homepage />`
 
-- _non-exact_ */about* renders `<AboutSection />`
+- _non-exact_ **/about** renders `<AboutSection />`
 
 - _else_ - redirect to `<Homepage />`
 
 The about section has self-contained routing to:
 
-- _exact_ */about* - renders nothing (already rendered by`<AboutSection />`)
+- _exact_ **/about** - renders nothing (already rendered by`<AboutSection />`)
 
-- _exact_ */about/jobs* renders `<JobsList />`
+- _exact_ **/about/jobs** renders `<JobsList />`
 
-- _exact_ */about/team* renders `<Team />`
+- _exact_ **/about/team** renders `<Team />`
 
 - _else_ - redirect to `<AboutSection />`
